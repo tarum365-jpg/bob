@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "agashka.power",
+    "slug": "agashka-power-v2179-home-profile-description",
+    "version": "2.17.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "agashkapower",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#23272F"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.agashka.power"
+    },
+    "android": {
+      "package": "com.agashka.power",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#23272F"
+      },
+      "versionCode": 229,
+      "permissions": [
+        "READ_MEDIA_IMAGES",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "CAMERA"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "sdkVersion": "54.0.0",
+    "newArchEnabled": false,
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Разрешите приложению открыть галерею и выбрать фото.",
+          "cameraPermission": "Разрешите приложению открыть камеру для фото."
+        }
+      ],
+      "expo-document-picker"
+    ]
+  }
+}
